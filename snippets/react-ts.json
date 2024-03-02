@@ -1,0 +1,7 @@
+{
+  "reactFunctionComponent": {
+    "prefix": "rfc",
+    "body": "const ${1:Component}: FC<$2> = ($3) => {\n\treturn (\n\t\t<>$0</>\n\t)\n}",
+    "description": "Creates a React functional component"
+  }
+}
