@@ -1,0 +1,12 @@
+{
+  "describeBlock": {
+    "prefix": "desc",
+    "body": "describe(\"$1\", () => {\n\tit(\"$2\", () => {\n\t\t${0:expect(true).toBe(true)}\n\t})\n})",
+    "description": "Creates a describe/it block"
+  },
+  "itBlock": {
+    "prefix": "it",
+    "body": "it(\"${2:does something}\", () => {\n\t${0:expect(true).toBe(true)}\n})",
+    "description": "Creates an it block"
+  }
+}
