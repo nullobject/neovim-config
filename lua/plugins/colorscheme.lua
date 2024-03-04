@@ -2,7 +2,7 @@ return {
   { "rose-pine/neovim", name = "rose-pine" },
   {
     "LazyVim/LazyVim",
-    opts = { colorscheme = "rose-pine-main" },
+    opts = { colorscheme = "rose-pine-moon" },
   },
   -- { "Mofiqul/dracula.nvim" },
   -- {
