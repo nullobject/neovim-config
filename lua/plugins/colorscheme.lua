@@ -7,6 +7,8 @@ return {
       styles = { transparency = false },
     },
   },
+  { "catppuccin/nvim", lazy = false, priority = 1000 },
+  { "folke/tokyonight.nvim", lazy = false, priority = 1000 },
   {
     "LazyVim/LazyVim",
     opts = { colorscheme = "rose-pine" },
