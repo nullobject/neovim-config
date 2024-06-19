@@ -4,7 +4,7 @@ return {
     name = "rose-pine",
     opts = {
       dark_variant = "moon",
-      styles = { transparency = false },
+      styles = { transparency = true },
     },
   },
   { "catppuccin/nvim", lazy = false, priority = 1000 },
